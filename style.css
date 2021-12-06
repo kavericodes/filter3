@@ -1,0 +1,30 @@
+body{
+    background:url("lipstick.jpg");
+}
+
+h1{
+    font-size: 50px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(6, 55, 161);
+}
+
+#snapshot{
+    font-size: 22px;
+}
+
+canvas{
+    animation-name: lipstick;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lipstick{
+    from{box-shadow: 1.5px 1.5px 38px rgb(163, 0, 0);}
+    to{box-shadow: 1.5px 1.5px 38px rgb(255, 138, 210);}
+}
+
+#snapshot{
+    margin-bottom: 50px;
+}
